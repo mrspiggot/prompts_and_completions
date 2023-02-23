@@ -1,2 +1,4 @@
 detailed script.txt
 sample.json
+venv/
+.env
