@@ -2,7 +2,8 @@ import re
 import pandas as pd
 import json
 import whisper
-import youtube_dl
+# import youtube_dl per https://github.com/mrspiggot/prompts_and_completions/issues/1
+import yt_dlp as youtube_dl
 
 class LucidateTextSplitter:
     def __init__(self, text, n):
